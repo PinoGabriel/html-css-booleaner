@@ -7,20 +7,23 @@ body {
 header {
     background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
-    background-size: auto;
+    background-size: 380px;
     background-color: dodgerblue;
 }
 
 .imgmain {
-    width: 34%;
+    width: 10%;
+    padding-top: 40px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 main, footer {
-    margin: 1%;
-}
-
-.sfondotesto {
-    background-color: yellow;
+    margin: 15px;
 }
 
 .prova {
@@ -31,24 +34,59 @@ main, footer {
     color: dodgerblue;
 }
 
-.sottotesto {
+.sottotitolo {
+    color: grey;
+}
+
+.dimsottotitolo {
     font-size: small;
 }
 
+.spazio {
+    padding-top: 15px;
+}
+
+.sottotesto {
+    font-size: small;
+    margin-top: 3px;
+}
+
+.sfondotesto {
+    background-color: yellow;
+}
+
 ul {
-    padding-left: 1%;
+    padding-left: 15px;
+}
+
+table {
+    border-spacing: 0px;
 }
 
 .primocoloretabella {
     background-color: rgb(6, 149, 245);
-    color: white
+    color: white;
 }
 
 .secondocoloretabella {
     background-color: rgba(6, 149, 245, 0.3);
 }
 
+.spacetable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.spacetable1 {
+    padding-right: 50px;
+}
+
 .coloretesto {
     color: grey;
     font-weight: 700;
+}
+
+footer {
+    margin-top: 30px;
 }
