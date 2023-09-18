@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+
+header {
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-color: dodgerblue;
+}
+
+.imgmain {
+    width: 34%;
+}
+
+main, footer {
+    margin: 1%;
+}
+
+.sfondotesto {
+    background-color: yellow;
+}
+
+.prova {
+    margin: 0;
+}
+
+.thebooleaner {
+    color: dodgerblue;
+}
+
+.sottotesto {
+    font-size: small;
+}
+
+ul {
+    padding-left: 1%;
+}
+
+.primocoloretabella {
+    background-color: rgb(6, 149, 245);
+    color: white
+}
+
+.secondocoloretabella {
+    background-color: rgba(6, 149, 245, 0.3);
+}
+
+.coloretesto {
+    color: grey;
+    font-weight: 700;
+}
