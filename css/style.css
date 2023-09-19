@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: auto;
+    margin: 0;
 }
 
 
@@ -11,14 +17,17 @@ header {
     background-color: dodgerblue;
 }
 
-h1 {
+main,
+footer,
+header {
+    padding-left: 15px;
+}
+
+main h1 {
+    line-height: 42px;
     margin-bottom: 0px;
     font-size: 40px;
     margin-top: 10px;
-}
-
-main, footer {
-    margin: 15px;
 }
 
 ul {
@@ -36,7 +45,6 @@ footer {
 .imgmain {
     width: 10%;
     padding-top: 40px;
-    margin-left: 15px;
 }
 
 .titolo {
@@ -90,4 +98,12 @@ footer {
 .coloretesto {
     color: grey;
     font-weight: 700;
+}
+
+.image {
+    width: 200px;
+}
+
+#image-monitor {
+    background-image: url(../img/monitor.jpg);
 }
